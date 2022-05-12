@@ -1,3 +1,4 @@
+import ProductTile from './catalog/product-tile';
 import HomeNewsletter from './homepage/home-newsletter';
 
 export default function Main() {
@@ -40,6 +41,103 @@ export default function Main() {
             <h1 className="section-title">
               <span>Glamour</span> Suits
             </h1>
+            <p>
+              Accomplish new achievements with a bold new style from the
+              brilliant collection of men’s designer suits.
+            </p>
+            <p>
+              For the finest custom tailored experience, be sure to explore our
+              selection of premium fabrics from one of the world's oldest fabric
+              mills, Vitale Barberis Canonico.
+            </p>
+          </header>
+          <section className="product-tiles row">
+            <div className="col-12 col-lg-3">
+              <ProductTile></ProductTile>
+            </div>
+            <div className="col-12 col-lg-3 offset-lg-1 mt-4 mt-lg-0">
+              <ProductTile></ProductTile>
+            </div>
+            <div className="col-12 col-lg-3 offset-lg-1 mt-4 mt-lg-0">
+              <ProductTile></ProductTile>
+            </div>
+          </section>
+          <footer>
+            <a href="" title="See more" className="catalog-preview-cta">
+              see more
+            </a>
+          </footer>
+        </section>
+        <section className="home-catalog-preview container demo-flex">
+          <header>
+            <h1 className="section-title">
+              <span>Layout</span> Flexbox
+            </h1>
+            <p>
+              Accomplish new achievements with a bold new style from the
+              brilliant collection of men’s designer suits.
+            </p>
+            <p>
+              For the finest custom tailored experience, be sure to explore our
+              selection of premium fabrics from one of the world's oldest fabric
+              mills, Vitale Barberis Canonico.
+            </p>
+          </header>
+          <section className="product-tiles">
+            <ProductTile></ProductTile>
+            <ProductTile></ProductTile>
+            <ProductTile></ProductTile>
+          </section>
+          <footer>
+            <a href="" title="See more" className="catalog-preview-cta">
+              see more
+            </a>
+          </footer>
+        </section>
+
+        <section className="home-catalog-preview container">
+          <header>
+            <h1 className="section-title">
+              <span>Bootstrap</span> Flex Utilities
+            </h1>
+
+            <p>
+              Accomplish new achievements with a bold new style from the
+              brilliant collection of men’s designer suits.
+            </p>
+            <p>
+              For the finest custom tailored experience, be sure to explore our
+              selection of premium fabrics from one of the world's oldest fabric
+              mills, Vitale Barberis Canonico.
+            </p>
+          </header>
+
+          <section className="product-tiles d-flex flex-column flex-lg-row justify-content-between">
+            <div className="mb-5 mb-lg-0">
+              <ProductTile></ProductTile>
+            </div>
+
+            <div className="mb-5 mb-lg-0">
+              <ProductTile></ProductTile>
+            </div>
+
+            <div>
+              <ProductTile></ProductTile>
+            </div>
+          </section>
+
+          <footer>
+            <a href="" title="See more" className="catalog-preview-cta">
+              see more
+            </a>
+          </footer>
+        </section>
+
+        <section className="home-catalog-preview container demo-grid">
+          <header>
+            <h1 className="section-title">
+              <span>CSS Grid</span> Layout
+            </h1>
 
             <p>
               Accomplish new achievements with a bold new style from the
@@ -53,7 +151,11 @@ export default function Main() {
           </header>
 
           <section className="product-tiles">
-            {/* insert product-tile*/}
+            <ProductTile></ProductTile>
+
+            <ProductTile></ProductTile>
+
+            <ProductTile></ProductTile>
           </section>
 
           <footer>
@@ -78,7 +180,7 @@ export default function Main() {
             </li>
 
             <li>
-              <img src="/images/payment/amazon.jpg" alt=""></img>
+              <img src="/images/payment/cirrus.jpg" alt=""></img>
             </li>
 
             <li>
