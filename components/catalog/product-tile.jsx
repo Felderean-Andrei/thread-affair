@@ -32,9 +32,9 @@ export default function ProductTile() {
 
       <section className="product-tile-info">
         <div className="product-tile-pricing">
-          <span className="product-price-regular">399</span>
+          <span className="product-price-regular">399.99</span>
           <span className="product-price">
-            USD <span>299</span>
+            USD <span>299.99</span>
           </span>
         </div>
       </section>

@@ -63,8 +63,8 @@ export default function Header() {
         <nav className="nav-primary">
           <ul>
             <li>
-              <a href="" title="Costume">
-                Costume
+              <a href="" title="Home">
+                Home
               </a>
             </li>
 
@@ -75,14 +75,14 @@ export default function Header() {
             </li>
 
             <li>
-              <a href="" title="Costume">
-                Costume
+              <a href="" title="Camasi">
+                Camasi
               </a>
             </li>
 
             <li>
-              <a href="" title="Costume">
-                Costume
+              <a href="" title="Accesorii">
+                Accesorii
               </a>
             </li>
           </ul>
@@ -91,8 +91,14 @@ export default function Header() {
         <nav className="nav-secondary">
           <ul>
             <li>
-              <a href="" title="Office suits">
-                Office suits
+              <a href="" title="Glamour Suits">
+                Glamour Suits
+              </a>
+            </li>
+
+            <li>
+              <a href="" title="Wedding Suits">
+                Wedding Suits
               </a>
             </li>
 
@@ -103,14 +109,8 @@ export default function Header() {
             </li>
 
             <li>
-              <a href="" title="Office suits">
-                Office suits
-              </a>
-            </li>
-
-            <li>
-              <a href="" title="Office suits">
-                Office suits
+              <a href="" title="Customize your suit">
+                Customize your suit
               </a>
             </li>
           </ul>

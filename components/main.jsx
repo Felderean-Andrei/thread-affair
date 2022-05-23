@@ -8,7 +8,7 @@ export default function Main() {
         <div className="banner-main">
           <div className="banner-main-inner container">
             <div className="banner-info">
-              <h1>Office Suits</h1>
+              <h1>Custom Suits</h1>
               <h2>Get back to work in style</h2>
 
               <a
@@ -51,7 +51,7 @@ export default function Main() {
               mills, Vitale Barberis Canonico.
             </p>
           </header>
-          <section className="product-tiles row">
+          <section className="product-tiles demo row">
             <div className="col-12 col-lg-3">
               <ProductTile></ProductTile>
             </div>
@@ -71,7 +71,7 @@ export default function Main() {
         <section className="home-catalog-preview container demo-flex">
           <header>
             <h1 className="section-title">
-              <span>Layout</span> Flexbox
+              <span>Wedding</span> Suits
             </h1>
             <p>
               Accomplish new achievements with a bold new style from the
@@ -98,7 +98,7 @@ export default function Main() {
         <section className="home-catalog-preview container">
           <header>
             <h1 className="section-title">
-              <span>Bootstrap</span> Flex Utilities
+              <span>Office</span> Suits
             </h1>
 
             <p>
@@ -136,7 +136,7 @@ export default function Main() {
         <section className="home-catalog-preview container demo-grid">
           <header>
             <h1 className="section-title">
-              <span>CSS Grid</span> Layout
+              <span>Wedding</span> Suits
             </h1>
 
             <p>
@@ -170,13 +170,21 @@ export default function Main() {
         <section className="home-payment container">
           <header>
             <h1 className="section-title">
-              <span>How to</span> Pay
+              How to <span>Pay</span>
             </h1>
           </header>
 
           <ul>
             <li>
-              <img src="/images/payment/amazon.jpg" alt=""></img>
+              <img src="/images/payment/visa.jpg" alt=""></img>
+            </li>
+
+            <li>
+              <img src="/images/payment/mastercard.jpg" alt=""></img>
+            </li>
+
+            <li>
+              <img src="/images/payment/maestro.jpg" alt=""></img>
             </li>
 
             <li>
@@ -184,19 +192,11 @@ export default function Main() {
             </li>
 
             <li>
-              <img src="/images/payment/amazon.jpg" alt=""></img>
+              <img src="/images/payment/paypal.jpg" alt=""></img>
             </li>
 
             <li>
-              <img src="/images/payment/amazon.jpg" alt=""></img>
-            </li>
-
-            <li>
-              <img src="/images/payment/amazon.jpg" alt=""></img>
-            </li>
-
-            <li>
-              <img src="/images/payment/amazon.jpg" alt=""></img>
+              <img src="/images/payment/visa_electron.jpg" alt=""></img>
             </li>
 
             <li>

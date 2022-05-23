@@ -1,9 +1,9 @@
 .banner-main {
-  background: $gray-primary url('/images/banners/banner-02.jpg') no-repeat
-    center center / cover;
+  background: $gray-primary url('/images/banners/banner-02.jpg') no-repeat center center / cover;
   height: 716px;
   color: $white;
   text-align: center;
+  border: 1px solid $gray-primary;
 
   .banner-main-inner {
     display: flex;
@@ -24,6 +24,7 @@
         font-size: 50px;
         font-weight: bold;
         line-height: 33px;
+        margin-bottom: 20px;
 
         @include media-breakpoint-up(lg) {
           font-size: 75px;

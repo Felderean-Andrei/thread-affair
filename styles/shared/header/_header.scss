@@ -31,11 +31,31 @@
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    gap: 16px;
+    gap: 30px;
+
+    .user-controls {
+      i[class*='fa-'] {
+        margin-left: 6px;
+      }
+    }
 
     .cart-controls {
+      position: relative;
+      margin-top: 6px;
+
+      i[class*='fa-'] {
+        font-size: 24px;
+      }
+
       .cart-qty {
-        color: $brand-primary;
+        position: absolute;
+        padding: 0 6px 0 6px;
+        background-color: $brand-primary;
+        border-radius: 10px;
+        height: 21px;
+        right: -10px;
+        top: -10px;
+        color: $white;
       }
     }
 
@@ -50,7 +70,7 @@
     // stop click on this div
     pointer-events: none;
 
-    & > a {
+    &>a {
       // only click on anchor
       pointer-events: all;
     }
@@ -79,6 +99,11 @@
         display: flex;
         align-items: center;
         gap: 16px;
+
+        li:first-child::after {
+          content: '|';
+          margin-left: 14px;
+        }
 
         li:first-child {
           i[class*='fa-'] {

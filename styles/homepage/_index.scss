@@ -26,6 +26,15 @@
     text-transform: uppercase;
     font-weight: 500;
 
+    &:last-child {
+      color: $black;
+      font-weight: 300;
+
+      span {
+        font-weight: 500;
+      }
+    }
+
     @include media-breakpoint-up(lg) {
       font-weight: 300;
       font-size: 30px;
@@ -40,6 +49,10 @@
 
   .product-tiles {
     margin-bottom: 50px;
+  }
+
+  .demo {
+    gap: 55px;
   }
 
   .demo-flex {

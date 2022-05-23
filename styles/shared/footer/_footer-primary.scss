@@ -59,7 +59,17 @@
     ul {
       display: flex;
       justify-content: center;
-      gap: 8px;
+      text-align: center;
+      gap: 32px;
+
+      li {
+        i[class^='fa-'] {
+          display: block;
+          font-size: 32px;
+          color: #ff6b6b;
+          margin-bottom: 16px;
+        }
+      }
     }
 
     @include media-breakpoint-up(lg) {
@@ -74,6 +84,20 @@
   .footer-contact {
     grid-area: contact;
     text-transform: initial;
+
+    h1 {
+      font-size: 16px;
+      font-weight: 300;
+      text-transform: uppercase;
+
+      span {
+        font-weight: 500;
+      }
+    }
+
+    a:last-child {
+      color: $brand-primary;
+    }
 
     p {
       margin: 0;
