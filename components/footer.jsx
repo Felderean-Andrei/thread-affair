@@ -155,21 +155,21 @@ export default function Footer() {
             <ul>
               <li>
                 <a href="" title="Support" className="text-uppercase">
-                  <i class="fa-solid fa-headset"></i>
+                  <i className="fa-solid fa-headset"></i>
                   Support
                 </a>
               </li>
 
               <li>
                 <a href="" title="Support" className="text-uppercase">
-                  <i class="fa-solid fa-comment-dots"></i>
+                  <i className="fa-solid fa-comment-dots"></i>
                   Chat
                 </a>
               </li>
 
               <li>
                 <a href="" title="Support" className="text-uppercase">
-                  <i class="fa-solid fa-envelope-open-text"></i>
+                  <i className="fa-solid fa-envelope-open-text"></i>
                   Email
                 </a>
               </li>
