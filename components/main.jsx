@@ -176,31 +176,45 @@ export default function Main() {
 
           <ul>
             <li>
-              <img src="/images/payment/visa.jpg" alt=""></img>
+              <a href="">
+                <img src="/images/payment/visa.jpg" alt=""></img>
+              </a>
             </li>
 
             <li>
-              <img src="/images/payment/mastercard.jpg" alt=""></img>
+              <a href="">
+                <img src="/images/payment/mastercard.jpg" alt=""></img>
+              </a>
             </li>
 
             <li>
-              <img src="/images/payment/maestro.jpg" alt=""></img>
+              <a href="">
+                <img src="/images/payment/maestro.jpg" alt=""></img>
+              </a>
             </li>
 
             <li>
-              <img src="/images/payment/cirrus.jpg" alt=""></img>
+              <a href="">
+                <img src="/images/payment/cirrus.jpg" alt=""></img>
+              </a>
             </li>
 
             <li>
-              <img src="/images/payment/paypal.jpg" alt=""></img>
+              <a href="">
+                <img src="/images/payment/paypal.jpg" alt=""></img>
+              </a>
             </li>
 
             <li>
-              <img src="/images/payment/visa_electron.jpg" alt=""></img>
+              <a href="">
+                <img src="/images/payment/visa_electron.jpg" alt=""></img>
+              </a>
             </li>
 
             <li>
-              <img src="/images/payment/amazon.jpg" alt=""></img>
+              <a href="">
+                <img src="/images/payment/amazon.jpg" alt=""></img>
+              </a>
             </li>
           </ul>
         </section>
